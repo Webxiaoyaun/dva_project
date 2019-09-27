@@ -1,0 +1,14 @@
+{
+  "extraBabelPlugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
+  ],
+  "theme": {
+    "@primary-color": "#EA625B"
+  },
+  "proxy": {},
+  "externals": {
+    "react": "window.React",
+    "react-dom": "window.ReactDOM"
+  },
+  "entry": "src/pages/*.js"
+}
